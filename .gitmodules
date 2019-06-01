@@ -1,0 +1,3 @@
+[submodule "ad"]
+	path = ad
+	url = ./themes/ad
