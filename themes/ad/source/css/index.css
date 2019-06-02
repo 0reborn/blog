@@ -47,16 +47,17 @@ a:hover {
 }
 
 hr {
-   height: 4px;
+   height: 2.5px;
    background: #999;
+   margin-bottom: 20px;
 }
 
 h1.passage-title {
    color: #339900;
    font-size: 26px;
-   padding-left: 20px;
+   /* padding-left: 20px; */
    border-bottom: 1px solid #999;
-   margin-bottom: 25px;
+   margin-bottom: 20px;
 }
 
 main {
@@ -848,17 +849,17 @@ main {
 .passage-article h6 {
    position: relative;
    font-weight: 600;
-   margin: 15px 0;
+   /* margin: 15px 0; */
    color: #3f3f3f;
 }
 
-.passage-article h1 a,
+/* .passage-article h1 a, */
 .passage-article h2 a,
 .passage-article h3 a,
 .passage-article h4 a,
 .passage-article h5 a,
 .passage-article h6 a {
-   padding-left: 7.5px;
+   /* padding-left: 7.5px; */
    transition: all .15s linear;
 }
 
@@ -872,7 +873,7 @@ main {
    content: "\f0c1";
    color: #F4511E;
    font-family: FontAwesome; */
-   content: "#";
+   /* content: "#"; */
 }
 
 .passage-article h1:hover a,
@@ -898,7 +899,7 @@ main {
    color: #009FAB;
    /* font-size: 2em; */
    font-size: 27px;
-   margin: 16px 0;
+   /* margin: 16px 0; */
 }
 
 .passage-article h2 {
@@ -1006,7 +1007,7 @@ main {
 }
 
 .passage-article>table {
-   width: 100%;
+   /* width: 100%; */
    border-collapse: collapse;
    text-align: left;
    border-left: 1px solid #BBBBBB;
@@ -1020,7 +1021,7 @@ main {
 }
 
 .passage-article>table thead th {
-   padding: 16px;
+   padding: 10px 16px;
    border-bottom: 1px solid #BBBBBB;
    border-right: 1px solid #BBBBBB;
    border-top: 1px solid #BBBBBB;
@@ -1036,7 +1037,7 @@ main {
 }
 
 .passage-article>table tbody tr td {
-   padding: 16px;
+   padding: 10px 16px;
    /* border-bottom: 1px solid #EEEEEE; */
    border-bottom: 1px solid #BBBBBB;
 
